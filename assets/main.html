@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>山口県光市 情報ライブカメラ</title>
+	<link href="main.css" rel="stylesheet">
+	<script src="main.js" language="JavaScript">
+	</script>
+	<style type="text/css"></style>
+</head>
+<body>
+	<div id="content">
+		<div id="main">
+			<div id="cam_name">山口県光市 情報ライブカメラ</div>
+			<div id="cam_img"><img src="main.png" id="cam_Img" name="camImg"></div>
+
+<!--
+<div id="cam_left"><a href="#" onclick="sendAction('camCommand=4')">←</a></div>
+<div id="cam_right"><a href="#" onclick="sendAction('camCommand=2')">→</a></div>
+-->
+
+			<div id="cam_title"></div>
+			<div id="cam_txt"></div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#" onclick="change_img('0')">みたらい湾</a>
+				<li><a href="#" onclick="change_img('1')">伊藤公記念公園</a>
+				<li><a href="#" onclick="change_img('2')">虹ヶ浜海岸</a>
+				<li><a href="#" onclick="change_img('3')">室積海岸</a>
+				<li><a href="#" onclick="change_img('4')">島田川</a>
+				<li><a href="#" onclick="change_img('5')">光井川</a>
+				<li><a href="#" onclick="change_img('6')">冠山総合公園</a>
+				<!--
+				<li class="arrow"><a href="#" onclick="sendAction('camCommand=4')" class="arrow">←</a>
+				<li class="arrow"><a href="#" onclick="sendAction('camCommand=2')" class="arrow">→</a>
+				-->
+			</ul>
+			<p>(約5秒間隔で更新)</p>
+		</div>
+	</div>
+	<input type="text" id="cam_No" value="4">
+	<iframe src="dummy.html" name="idummy" width="0" height="0" border="0" style="border:none;" frameborder="0"></iframe>
+</body>
+
+
+

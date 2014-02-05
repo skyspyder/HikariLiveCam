@@ -1,0 +1,102 @@
+body {
+	margin      :0px;
+	background  :gainsboro;
+	overflow    :hidden;
+}
+
+#content {
+	margin      :0px;
+	background  :gainsboro;
+	width       :100%;
+	height      :100%;
+}
+
+#main {
+	background  :deepskyblue;
+	float       :left;
+}
+
+#menu {
+	margin      :0px;
+	float       :right;
+}
+
+#cam_img {
+
+}
+
+#cam_name {
+	top         :4px;
+	padding     :4px 8px 4px 8px;
+	color       :white;
+	background  :rgba(0, 0, 0, 0.25);
+	text-align  :center;
+	font-size   :14px;
+	position    :absolute;
+}
+
+
+#cam_title {
+	top         :-48px;
+	padding     :2px;
+	color       :white;
+	background  :rgba(0, 0, 0, 0.15);
+	text-align  :center;
+	font-size   :16px;
+	position    :relative;
+}
+
+#cam_txt {
+	top         :-48px;
+	padding     :2px;
+	color       :white;
+	background  :rgba(0, 0, 0, 0.15);
+	text-align  :center;
+	font-size   :14px;
+	position    :relative;
+	font-family :'Exo 2', sans-serif;
+}
+
+#menu ul {
+	margin      :2px 0px;
+	padding     :0px;
+}
+
+#menu ul li {
+	margin      :4px;
+	padding     :0px;
+	list-style-type :none;
+}
+
+#menu ul li a {
+	margin      :0px;
+	text-align  :center;
+	text-decoration :none;
+	font-size   :12px;
+	color       :white;
+	background  :#66A7E8;
+	display     :table-cell;
+	vertical-align :middle; }
+
+#menu ul li a.arrow {
+	background  :#37DD9E;
+	font-size   :30px;
+}
+
+#menu ul li :hover{
+	background  :dodgerblue;
+}
+
+#menu ul li.arrow :hover{
+	background  :#0ACE65;
+}
+
+#menu p{
+	font-size:12px;
+	text-align:center;
+}
+
+#cam_No {
+	display     :none;
+}
+

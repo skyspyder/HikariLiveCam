@@ -1,0 +1,101 @@
+body {
+	margin:0px;
+	overflow:hidden;
+}
+
+#content {
+}
+
+#main {
+	width:100%;
+
+	background:deepskyblue;
+	position:relative;
+
+	float:left;
+}
+
+#cvs {
+}
+
+#cam_title {
+	width:100%;
+
+	font-size:14px;
+	padding: 4px;
+	top:2px;
+	position:absolute;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+}
+
+#cam_name {
+	width:100%;
+
+	font-size:14px;
+	text-align:center;
+	padding: 4px;
+	bottom: 26px;
+	position:absolute;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+}
+
+#cam_time {
+	width:100%;
+
+	font-size:14px;
+	text-align:center;
+	padding: 4px;
+	bottom: 4px;
+	position:absolute;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+}
+
+#menu {
+	margin:6px 0px 0px 0px;
+	padding:0px;
+
+	float       :right;
+}
+
+#menu ul {
+	width:100%;
+
+	margin:0px;
+	padding:0px;
+}
+
+#menu ul li {
+	line-height:40px;
+
+	margin      :4px;
+	padding     :0px;
+
+	text-align  :center;
+	list-style-type :none;
+	background  :#66A7E8;
+}
+
+#menu ul li a {
+	margin      :0px;
+	padding     :0px;
+	display:block;
+
+	text-decoration :none;
+	font-size:14px;
+	color       :white;
+}
+
+#menu ul li a:hover {
+	background  :dodgerblue;
+}
+
+#no_view {
+	display     :none;
+}
+

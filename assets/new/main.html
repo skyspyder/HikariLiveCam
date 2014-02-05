@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>山口県光市 情報ライブカメラ</title>
+	<link href="main.css" rel="stylesheet">
+	<script src="main.js" language="JavaScript">
+	</script>
+	<style type="text/css"></style>
+</head>
+<body>
+	<div id="content">
+		<div id="main">
+			<div id="cam_title">山口県光市 情報ライブカメラ</div>
+			<canvas id="cvs"></canvas>
+			<div id="cam_name">光市</div>
+			<div id="cam_time">2999/12/31 23:59:59</div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#" onclick="change_img('0')">みたらい湾</a>
+				<li><a href="#" onclick="change_img('1')">伊藤公記念公園</a>
+				<li><a href="#" onclick="change_img('2')">虹ヶ浜海岸</a>
+				<li><a href="#" onclick="change_img('3')">室積海岸</a>
+				<li><a href="#" onclick="change_img('4')">島田川</a>
+				<li><a href="#" onclick="change_img('5')">光井川</a>
+				<li><a href="#" onclick="change_img('6')">冠山総合公園</a>
+	<!--
+				<li><a href="#" onclick="sendAction('camCommand=4')">←</a>
+				<li><a href="#" onclick="sendAction('camCommand=2')">→</a>
+	-->
+			</ul>
+		</div>
+		<div id="no_view">
+			<input type="text" id="cam_No" value="4">
+			<iframe src="dummy.html" name="idummy"></iframe>
+		</div>
+	</div>
+</body>
+
+
+
